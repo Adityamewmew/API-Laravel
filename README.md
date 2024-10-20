@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+PRAKTIKUM
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Screenshot 2024-10-20 100801](https://github.com/user-attachments/assets/ed3dcd59-829d-4ee0-b393-6c7c71ffb04f)
+![Screenshot 2024-10-20 100848](https://github.com/user-attachments/assets/146d2972-4b1f-4182-b4b3-3a735dc48968)
 
-## About Laravel
+Buat migration dan model
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Screenshot 2024-10-20 101904](https://github.com/user-attachments/assets/fd02c5b7-6b92-4f53-8eef-3023047727f1)
+![Screenshot 2024-10-20 102649](https://github.com/user-attachments/assets/83d0784c-acbf-44c1-9d0c-7859a75aff7a)
+![Screenshot 2024-10-20 102656](https://github.com/user-attachments/assets/ce2a71df-0db8-40f0-ae73-f4fd77c04c73)
+![Screenshot 2024-10-20 104136](https://github.com/user-attachments/assets/cd694fda-f759-47f7-83e1-4eb21709e4a5)
+![Screenshot 2024-10-20 104258](https://github.com/user-attachments/assets/ce989cfe-2eba-483b-82c0-7445821c78de)
+![Screenshot 2024-10-20 104820](https://github.com/user-attachments/assets/a66239eb-526a-4231-91fb-7fc36ca27203)
+![Screenshot 2024-10-20 105125](https://github.com/user-attachments/assets/cbc4f9d7-c06e-4274-8913-1d93263e37f4)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Testing API
+GET
+![Screenshot 2024-10-20 123145](https://github.com/user-attachments/assets/3d0b6460-fc47-42ee-b8fc-6ef5c43980ca)
+POST
+![Screenshot 2024-10-20 123433](https://github.com/user-attachments/assets/a09cf7fa-0c7e-4a7d-97e2-05f73d1ac611)
+DELETE
+![Screenshot 2024-10-20 123748](https://github.com/user-attachments/assets/1f578cb6-d6ee-4736-b76b-1b11f11365fb)
+PUT
+![Screenshot 2024-10-20 123651](https://github.com/user-attachments/assets/f9d936d8-cbbf-4f59-977a-47705781e5c6)
 
-## Learning Laravel
+Tugas
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Menambahkan validasi ,nama buku tidak boleh kosong,harga min 1000
+![image](https://github.com/user-attachments/assets/80adc8ef-22b0-469b-bd02-5a89abe4464d)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Membuat endpoint search
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Screenshot 2024-10-20 144728](https://github.com/user-attachments/assets/641c7011-ebfc-476b-9f9f-9c092cec6a3b)
+Saat merancang endpoint pencarian buku, kita perlu memperhatikan beberapa hal. Pertama, untuk performa, penting untuk membuat indeks pada kolom yang sering dicari, seperti judul dan kategori_id, serta menambahkan pagination untuk menampilkan hasil, misalnya 10 buku per halaman. Dari sisi skalabilitas, pastikan query yang digunakan efisien agar server tetap responsif saat data bertambah. Untuk pengalaman pengguna, berikan umpan balik jika tidak ada buku yang ditemukan dan tambahkan opsi pencarian berdasarkan judul dan penulis. Dengan cara ini, kita dapat menciptakan sistem pencarian buku yang efektif dan user-friendly.
 
-## Laravel Sponsors
+Menggunakan ngrok untuk akses 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+![image](https://github.com/user-attachments/assets/c3d62143-9810-488d-a628-7e753814f055)
+![Screenshot 2024-10-20 144451](https://github.com/user-attachments/assets/9f62fd0e-62f6-4ac3-a598-412af1e8c240)
 
-### Premium Partners
+https://2157-103-67-84-138.ngrok-free.app/api/bukus
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
